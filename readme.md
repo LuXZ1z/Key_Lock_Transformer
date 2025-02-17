@@ -4,18 +4,17 @@
 
 ## Table of Contents
 
-- [Installation](https://chat.deepseek.com/a/chat/s/dd0d1ce6-e394-49da-940b-dd4239279510#installation)
-- [Quick Start](https://chat.deepseek.com/a/chat/s/dd0d1ce6-e394-49da-940b-dd4239279510#quick-start)
-- [Project Structure](https://chat.deepseek.com/a/chat/s/dd0d1ce6-e394-49da-940b-dd4239279510#project-structure)
-- [Data Format](https://chat.deepseek.com/a/chat/s/dd0d1ce6-e394-49da-940b-dd4239279510#data-format)
-- [Training](https://chat.deepseek.com/a/chat/s/dd0d1ce6-e394-49da-940b-dd4239279510#training)
-- [Inference](https://chat.deepseek.com/a/chat/s/dd0d1ce6-e394-49da-940b-dd4239279510#inference)
-- [Configuration](https://chat.deepseek.com/a/chat/s/dd0d1ce6-e394-49da-940b-dd4239279510#configuration)
-- [Acknowledgments](https://chat.deepseek.com/a/chat/s/dd0d1ce6-e394-49da-940b-dd4239279510#acknowledgments)
+- [Installation](#Installation)
+- [Quick Start](#QS)
+- [Project Structure](#PS)
+- [Training](#T)
+- [Inference](I)
+- [Configuration](#C)
+- [Acknowledgments](A)
 
 ------
 
-## Installation
+## Installation<a id="Installation"></a>
 
 ### Prerequisites
 
@@ -30,7 +29,7 @@ pip install pandas scipy tqdm pickle5 seaborn matplotlib scikit-learn
 
 ------
 
-## Quick Start
+## Quick Start<a id="QS"></a>
 
 1. **Prepare Data**
 
@@ -50,7 +49,7 @@ pip install pandas scipy tqdm pickle5 seaborn matplotlib scikit-learn
 
 ------
 
-## Project Structure
+## Project Structure<a id="PS"></a>
 
 ```
 │  BMC_loss.py                                                                                                  
@@ -79,7 +78,7 @@ pip install pandas scipy tqdm pickle5 seaborn matplotlib scikit-learn
 
 ------
 
-## Training
+## Training<a id="T"></a>
 
 To train the model:
 
@@ -91,7 +90,7 @@ python train.py
 
 ------
 
-## Inference
+## Inference<a id="I"></a>
 
 To run predictions:
 
@@ -101,7 +100,7 @@ python infer.py
 
 ------
 
-## Configuration
+## Configuration<a id="C"></a>
 
 Key parameters in `config.py` include:
 
@@ -114,7 +113,7 @@ Key parameters in `config.py` include:
 
 ------
 
-## Acknowledgments
+## Acknowledgments<a id="A"></a>
 
 This project leverages code and methodologies from these open-source repositories:
 
