@@ -13,7 +13,7 @@ import os
 import time
 from copy import deepcopy
 
-from model import KLModel, KLModel_Plus
+from model import KLModel_Plus
 from utils import CustomSchedule, get_timestamp, split_data, save_to_file, drawPicSide, draw_train_test_info, \
     filter_invalid_values
 
