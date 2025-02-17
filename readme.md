@@ -8,9 +8,9 @@
 - [Quick Start](#QS)
 - [Project Structure](#PS)
 - [Training](#T)
-- [Inference](I)
+- [Inference](#I)
 - [Configuration](#C)
-- [Acknowledgments](A)
+- [Acknowledgments](#A)
 
 ------
 
