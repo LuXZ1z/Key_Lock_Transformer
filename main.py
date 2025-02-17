@@ -2,7 +2,6 @@ import os
 
 import matplotlib
 
-from analysis_data import add_key_info, process_32x12000, evaluate_model
 from config import Config
 from infer import run_infer
 from train import train_model
